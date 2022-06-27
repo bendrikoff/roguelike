@@ -9,27 +9,24 @@ public class MapManager
 }
 public class Tile
 {
-    public int xPosition;
-    public int yPosition;
-    public GameObject baseObject;
-    public string type;
+    public Vector2Int position;
 }
 
 
-public class Wall
+public class Wall:Tile
 {
-    public List<Vector2Int> positions;
     public Directions direction;
-    public int lenght;
-    public bool hasFeature = false;
+}
+
+public class Floor : Tile
+{
     
 }
 
 public class Feature
 {
-    public List<Vector2Int> positions;
-    public Wall[] walls;
     public FeatureType type;
     public int width;
     public int height;
+    public List<Tile> tiles;
 }

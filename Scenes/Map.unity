@@ -159,12 +159,19 @@ MonoBehaviour:
   _widthMaxRoom: 8
   _heightMinRoom: 5
   _heightMaxRoom: 10
+  _corridorWidth: 0
   _minCorridorLenght: 3
   _maxCorridorLenght: 15
   _maxFeatures: 10
-  _screen: {fileID: 0}
+  _screen: {fileID: 856515220}
   isAscii: 0
   _root: {fileID: 1625376355}
+  _bottomWalls: []
+  _rightLeftWalls: []
+  _upperWalls: []
+  _floors:
+  - {fileID: 0}
+  - {fileID: 7594928521356609178, guid: ba5b66897d3fe3d4bb4552bc38dc536a, type: 3}
   _wallGameObject: {fileID: 227130490073844160, guid: ef1288f0746e7da4c950b53f0cb07c41, type: 3}
   _floorGameObject: {fileID: 8829396888985065777, guid: 014a71c958e24cd4abbb9e0906dec4b7, type: 3}
 --- !u!114 &492515583
